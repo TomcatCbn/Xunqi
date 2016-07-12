@@ -1,9 +1,11 @@
-package cbn.cn.xunqi;
+package cbn.cn.xunqi.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class HomeActivity extends AppCompatActivity {
+import cbn.cn.androidlib.activity.BaseActivity;
+import cbn.cn.xunqi.R;
+
+public class HomeActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
